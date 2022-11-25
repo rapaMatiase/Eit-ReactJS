@@ -1,0 +1,7 @@
+.contenedorTateti{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    height: 300px;
+    width: 300px;
+    gap : 10px;
+}
