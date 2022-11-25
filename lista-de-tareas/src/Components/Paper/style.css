@@ -1,0 +1,8 @@
+.paper{
+    height: 200px;
+    width: 300px;
+    background-color: cadetblue;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 10px;
+}

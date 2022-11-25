@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="nombre" value="Tu nombre">
+    <button id="btnEnviar" > Enviar </button>
+    <script>
+        let elInputTextNombre = document.getElementById("nombre")
+        let elBtnEnviar = document.getElementById("btnEnviar")
+
+        elBtnEnviar.addEventListener("click", function(event){
+            console.log(event.target)
+            let texto = elInputTextNombre.value 
+            alert(texto)
+        })
+
+    </script>
+</body>
+</html>

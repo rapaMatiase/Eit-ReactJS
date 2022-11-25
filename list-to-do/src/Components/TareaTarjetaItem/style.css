@@ -1,0 +1,44 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.paper{
+    max-height: 200px;
+    max-width: 400px;
+    background-color: rgb(196, 134, 52);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+input{
+    font-size: 1rem;
+    width: 300px;
+    margin: 5px;
+    max-height: 100px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.editable{
+}
+
+.noEditable{
+    background-color: transparent;
+    border: none;
+}
+
+.noEditable:focus{
+    border: none;
+    outline: none;
+}
