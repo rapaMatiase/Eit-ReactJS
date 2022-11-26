@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p  >Contador : <span id="texto" style="height: 20px; width: 20px;" ></span></p>
+    <button id="contador"> Contar </button>
+    
+    <script>
+        //TRES VARIABELS GLOBALES QUE CUALUQIERA PUEDE MOFICIAR.
+        let contador = 0
+        let elSpanTexto = document.getElementById("texto")
+        let elBtnContador = document.getElementById("contador")
+        
+        //FUNCION SUELTA
+        elBtnContador.addEventListener("click", function(e){
+            contador++
+            elSpanTexto.innerHTML = contador
+        })
+    </script>
+</body>
+</html>

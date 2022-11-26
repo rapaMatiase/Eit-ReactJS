@@ -1,0 +1,15 @@
+.contenedorBotonCuadrado{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    transition: all .1s linear .2s ;
+}
+
+.contenedorBotonCuadrado:hover{
+    border-radius: 25px;
+    background-color: rgb(60, 102, 103);
+}

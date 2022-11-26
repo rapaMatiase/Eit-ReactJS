@@ -1,0 +1,12 @@
+.botonRectangular{
+    height: 50px;
+    width: 200px;
+    background-color: cadetblue;
+    border : none;
+    border-radius: 5px;
+    transition: background-color .1s ease-out .2s;
+}
+
+.botonRectangular:hover{
+    background-color: rgb(72, 120, 121);
+}
