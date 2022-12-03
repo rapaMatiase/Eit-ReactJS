@@ -1,0 +1,69 @@
+.tarjetaProducto_contendor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 330px;
+    width: 224px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: height .1s linear .2s;
+}
+
+.tarjetaProducto_contendor:hover{
+    height: 400px;
+}
+
+.tarjetaProducto_fila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetaProducto_fila-padding{
+    padding: 15px;
+}
+
+.tarjetaProducto_fila-column{
+    flex-direction: column;
+}
+
+.tarjetaProducto_fila-izquierda{
+    align-items: flex-start;
+}
+
+.tarjetaProducto_textoSecundario{
+    color : #999;
+}
+
+.tarjetaProducto_textoSecundario-s14{
+    font-size: 14px;
+}
+
+
+.tarjetaProducto_textoSecundario-tachado{
+    text-decoration: solid line-through 1px;
+}
+
+.tarjetaProducto_lineaHorizontal{
+    border-bottom: solid 1px #333;
+    padding-top: 1px;
+    width: 100%;
+}
+.tarjetaProducto_precioNuevo{
+    color : #333;
+    margin: 0px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tarjetaProducto_descuento{
+    color : #00a650;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.tarjetaProducto_descuento-negrita{
+    font-weight: bold;
+}

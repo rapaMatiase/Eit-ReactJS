@@ -1,0 +1,10 @@
+#contador{
+    height : 100px;
+    width: 100px;
+    background-color: brown;
+    color: azure;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

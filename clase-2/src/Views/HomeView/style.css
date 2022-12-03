@@ -1,0 +1,13 @@
+.contenedorHomeView{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap : 10px; 
+}
+
+.contenedorHomeView div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
