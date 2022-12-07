@@ -1,0 +1,5 @@
+ComponenrtDidMount -> useEffect(, [])
+ComponenetDidUpdate -> useEfect() Este se ejecuta siempre
+                    -> useEffect(, [una o mas HOOK]) solo se ejecuta cuando el hook sufre un cambio
+
+componenetWillUnMount -> useEffect(()=>{ return ACA SE EJECUTA}) Se ejecuta dentro de cualquier useEffect en el return de final de la funcion y basicamente se utiliza para limpiar lo sucio. 
