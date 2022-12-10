@@ -1,0 +1,25 @@
+.contenedor{
+    box-sizing: border-box;
+    height: 250px;
+    width: 301px;
+    border-radius: 3px;
+    border : solid black .5px
+}
+
+.fila75{
+    height: 80%;
+}
+
+.fila25{
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.id{
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 60px;
+}
