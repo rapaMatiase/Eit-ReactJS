@@ -1,0 +1,21 @@
+.postItem_contendor{
+    padding: 10px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 300px;
+    border : 1px solid rgb(198, 198, 198);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.postItem_title{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.postItem_parrafo{
+    font-size: 12px;
+    margin: 0px;
+}
