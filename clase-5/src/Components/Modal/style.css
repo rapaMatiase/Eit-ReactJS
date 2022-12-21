@@ -1,0 +1,17 @@
+.modal_contendor{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.433);
+    position: absolute;
+    display: grid;
+    place-items: center;
+}
+
+.modal_paper{
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 30%;
+    width: 30%;
+}

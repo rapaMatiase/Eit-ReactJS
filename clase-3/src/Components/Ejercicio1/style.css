@@ -1,0 +1,31 @@
+.itemTarjeta{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    height: 250px;
+    width: 300px;
+}
+
+.itemTarjeta_contendorImagen{
+    height: 80%;
+    width: 100%;
+}
+
+.itemTarjeta_imagen{
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.itemTarjeta_detalle{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.itemTarjeta_id{
+    width: 20px;
+    background-color: azure;
+    border-radius: 20px;
+}

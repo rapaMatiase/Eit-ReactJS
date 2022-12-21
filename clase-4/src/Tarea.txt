@@ -1,0 +1,2 @@
+Tomar el ejercicio 1, 2 y 3, hacer copias por las dudas. Modificar los tres componenetes para lograr que ;
+- Los ingresados en los input de los ejercicios 1 y 2 se guarden en un unico HOOK-USESTATAE en el formulario del ejercicio 3. Que el ejericicio 3  le pase una propiedad a los componentes del ejercicio 1 y 2, que sea una funcion que le permita setear esos valores.
