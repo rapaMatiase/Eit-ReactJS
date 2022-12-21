@@ -1,0 +1,10 @@
+Dado de la misma API de jsonplaceholder. Crear los siguientes componentes;
+- Un componenete de tabla
+- Un componenete de fila de tabla.
+
+Dentro del componente de tabla, se debe hacer una conexion a la siguiente API y mostrar una fila por cada usuario recibido.
+
+https://jsonplaceholder.typicode.com/users
+
+PISTA : Utilizar useEffect y axios
+
