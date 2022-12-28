@@ -1,0 +1,7 @@
+1) Crear un componente de contador. Tiene que tener un HOOK del tipo numerico con un boton que cada vez que hace click, suma uno al hook. Mostrar en un P el valor del hook.
+
+6min 11.26
+
+2) Crear un UseLocalStoreNumber que permita persistir cada vez que le sumo uno al contador. Hacer que el contador quede asociado al mismo.
+
+10 min 11.42

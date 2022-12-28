@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+
+import { useEffect, useState } from 'react';
 import './App.css';
+import Axios from 'axios';
+import UseCarritoDeCompras from './hook/UseCarritoDeCompras';
+
 
 function App() {
+
+
+  const [json, setJson] = useState([]);
+  const [carrito,  agregarItem, quitarItem] = UseCarritoDeCompras();
+
+
+
+  useEffect(()=>{
+    Axios({
+      url: 'https://dummyjson.com/products'
+    })
+    .then((response)=>{
+      setJson(response.data.products)
+    })
+    .catch((error)=>{
+      console.log(error)
+    })
+  },[])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ul>
+        {json.map((producto)=>(
+          <li>{producto.id} - {producto.title} <button onClick={()=>agregarItem(producto)} >Agregar</button> </li>    
+          ))}
+      </ul>
+      <ul>
+        {carrito.map((producto, index)=>(
+          <li>{producto.id} - {producto.title} <button onClick={()=>quitarItem(index)} >Agregar</button></li>    
+          ))}
+      </ul>
     </div>
   );
 }
