@@ -1,0 +1,11 @@
+.contenedorDeTarjetas{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    width: 100vw;
+}
+
+.celda{
+    height: 400px;
+    margin-left : 10px;
+}

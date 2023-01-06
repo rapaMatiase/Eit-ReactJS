@@ -1,0 +1,13 @@
+TIPOS DE ROUTERS;
+
+1) Browser router 
+2) Hash Route
+
+El 1er es la version original que viene de routerV5, y el formato mas comun de todas las librerias/frameworks de react para la navegacion.
+El 2nd fue introducido en routerV6, y funciona basicamente igual, entonces ¿Cual es la diferencia?
+
+Cada vez que hago una peticion al backend, este mapea la url pasada y si coincide con algun path, devuelve el archivo/archios relacionados. En el caso React, estaria devolviendo el index.js donde arranca el proyecto.
+
+El cambio entre el 1er y 2nd esque cada vez que el usaurio escribia una url que no mapera con los PATH en el front, se lo envian al backend y esta devolvia 404. Yo quisiera manejar esta situacion desde el front, y para eso nace HashRoute.
+
+En vez de armar las url como 'mercadolibre.com/inicio', se van a armar como 'mercadolibre.com/#/inicio'. Esto significa que sin importar lo que escriba el usuario, el backend solo va interpretar la url hasta el # sin incluir. Todo lo que siguie despues de este, es lo que maneja el FRONT, y ahi puedo tener un 404 distinto al del backend. 
