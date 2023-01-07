@@ -1,0 +1,20 @@
+El objetivo es recrear la vista de cuando se hace una busqueda en mercado libre  (https://listado.mercadolibre.com.ar/baterias#D[A:baterias]).
+
+Pasos optativos;
+
+1) Crear un componente FilaProdcto. Sacar un json de ejemplo de dummpyjson.com sobre un producto y harcodearlo en una constante en el componente creado.
+
+https://dummyjson.com/docs/products
+
+2) Crear el render que permita visualizar toda la informacion importante del producto en pantalla. Sin CSS.
+
+3) Agregar el css necesario para que se vea como mercado libre. (depende totalmente del alumno cuanto tiempo invierte en esta parte).
+
+4) Hacer que los datos harcodeados del paso 1 esten en App.js y el componente FilaProducto los reciba como parametros.
+
+5) Armar en App.js una constante que tenga un array de objetos de productos copias de la misma url de dummyjson.com y utilizar un map para mostrar varios FilaProducto de distintos productos en la interfaz.
+
+6) Crear un compoenente TablaProductos, y este diseñado para mostrar correctamente un producto debajo de otro.
+
+7) Hacer la conexion a API REST de dummyjson.com para obtener todos los productos con un USE EFFECT y AXIOS. 
+

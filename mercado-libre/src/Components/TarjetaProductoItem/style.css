@@ -10,11 +10,7 @@
     overflow: hidden;
     transition: height .1s linear .2s;
 }
-
-.tarjetaProducto_contendor:hover{
-    height: 400px;
-}
-
+ 
 .tarjetaProducto_fila{
     display: flex;
     justify-content: center;
