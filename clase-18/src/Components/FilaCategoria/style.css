@@ -1,0 +1,8 @@
+.contenedorFilaCategoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    overflow-x: scroll;
+    min-height: 450px;
+}

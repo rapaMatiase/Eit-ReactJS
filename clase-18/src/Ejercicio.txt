@@ -1,0 +1,16 @@
+Habiendo creado un proyecto. Crear tres vistas; Lista de productos, detalle de producto, Inicio. 
+
+Cada una solo debe tener un h1 con el nombre de la vista. 
+
+Ademas crear un HashRoute, Routes, Route, y tres Link que permita ir de una vista a la otra. 
+9min 18.47
+
+PARTE 2
+
+Cambiar los LINK por NAVLINK para que el seleccionado se vea de color verde ( letra o fondo). 5min 19.02
+
+
+PARTE 3
+En la lista de productos, hacer un useEffect que traiga todos los productos y muestre una lista de id con nombre, para que al hacer click, me muestre la vista de detalle con el valor correspondeinte en el parametro id.
+
+10 19.56

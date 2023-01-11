@@ -1,0 +1,17 @@
+.productoItenFila_contendor{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.productoItenFila_imagen{
+    height: 15vh;
+}
+
+.productoItenFila_columna20{
+    flex: 1;
+}
+
+.productoItenFila_columna80{
+    flex: 4;
+}
