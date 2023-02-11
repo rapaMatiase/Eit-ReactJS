@@ -1,0 +1,10 @@
+.scroll{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    margin: 10px;
+    overflow: scroll;
+    width: 40vw;
+    overflow-x: hidden;
+}
